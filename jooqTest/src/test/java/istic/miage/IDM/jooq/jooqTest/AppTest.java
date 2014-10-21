@@ -1,4 +1,4 @@
-package foo;
+package istic.miage.IDM.jooq.jooqTest;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
