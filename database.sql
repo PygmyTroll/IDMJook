@@ -21,7 +21,7 @@ CREATE TABLE `Etudiant` (
   `ID_FORMA` int(100) NOT NULL,
   `NOM_ETU` varchar(100) NOT NULL,
   `PRENOM_ETU` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+)
 
 --
 -- Dumping data for table `Etudiant`
@@ -41,7 +41,7 @@ CREATE TABLE `Formation` (
   `ID_FORMATION` int(100) NOT NULL,
   `ID_UNI` int(100) NOT NULL,
   `NOM_FORMA` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+)
 
 --
 -- Dumping data for table `Formation`
@@ -60,7 +60,7 @@ INSERT INTO `Formation` (`ID_FORMATION`, `ID_UNI`, `NOM_FORMA`) VALUES
 CREATE TABLE `Universite` (
   `ID_UNIV` int(10) NOT NULL,
   `NOM_UNIV` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+)
 
 --
 -- Dumping data for table `Universite`
